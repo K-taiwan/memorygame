@@ -1,8 +1,22 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>
+<!--> <html class="no-js"> 
+<!--<![endif]-->
+
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Memory Card Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/memorycss.css">
 
@@ -11,28 +25,44 @@
     <header>
     <h1>Memory Game</h1>
     </header>
+
     <nav>
     <a id="test1" href="https://www.youtube.com/watch?v=492bM_dhdR4&t=1s" target="_blank">Instructions Game</a>
     </nav>
+
     <h2>Instructions</h2>
     <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
     <img src="https://www.codester.com/static//uploads/items/3290/preview-xl.jpg" alt="Memory Game Picture" width="324" height="242"><br>
     
     <a href="https://www.eduplace.com/ss/act/rules.html" target="_blank">Instructions List</a><br>
+
+  <main>
+
+    <h3>How to win the game?</h3>
+    <div id="test1"><p>Once <span>all</span> you find the matching pair, you will be the winner!</p></div>
   
-  <nav>
-    <h3>Winning the Game</h3>
-   <div id="test1"><p>Once <span>all</span> the cards have been played the player with the most matching pairs is the winner.</p></div>
-  </nav> 
-  </body><br>
-  <div class="test2">
+    <br>
+
+    <script src="" async defer></script>
+<!-- <div class="test2">
 <img src="images/back.png" alt="Queen of Diamonds">
 <img src="images/back.png" alt="Queen of Hearts">
 <img src="images/back.png" alt="King of Diamonds">
 <img src="images/back.png" alt="King of Hearts">
-</div>
-<footer class="clearfix">
-  <p class="copyright">Copyright 2019</p>
-  <p class="message">Created with &hearts; by <span class="name">GA</span></p>
-</footer>
+</div> -->
+    <div id="game-board" class="board clearfix"></div>
+
+    <input type="button" value="Reset" onclick = "resetGame()">
+
+    </main>
+
+    <footer class="clearfix">
+      <p class="copyright">Copyright 2019</p>
+      <p class="message">Created with <span class="heart">&hearts;</span> by <span class="name">Kenny</span></p>
+    </footer>
+    <script src="js/memoryjs.js"></script>
+  </body>
 </html>
+
+
+
