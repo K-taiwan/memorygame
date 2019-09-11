@@ -69,7 +69,7 @@ function flipCard(cardId) {
     }
 }
 
-/*
+/* //need to figure out why not working...
 var flipCard = function(cardId){
 
     if(cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[1]){
