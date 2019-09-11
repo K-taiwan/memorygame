@@ -49,13 +49,18 @@ function checkForMatch() {
 
 function flipCard(cardId) {
     var cardId = this.getAttribute('data-id');
+    //has the rank as well in console
     console.log("User flipped " + cards[cardId].rank);
     cardsInPlay.push(cards[cardId].rank);
+    //make sure to show image and suit
     console.log(cards[cardId].suit);
     console.log(cards[cardId].cardImage);
     
+
+
     this.setAttribute("src", cards[cardId].cardImage);
     if (cardsInPlay.length === 2) {
+    //format followed in study guide
     if (cardsInPlay[0] === cardsInPlay[1]) {
         alert("Congrats! You have found the Pair's");
         } else {
@@ -77,6 +82,7 @@ var flipCard = function(cardId){
 }
 */
 
+//for statement for the game board
 function createBoard() {
     for (i = 0; i < cards.length; i++) {
         var cardElement = document.createElement('img');
