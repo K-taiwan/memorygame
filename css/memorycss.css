@@ -10,7 +10,7 @@
 
 h1 {
     font-family: 'Righteous', cursive;
-    color: #0D2C40;
+    color: rgb(242, 246, 248);
     font-weight: 400;
     font-size: 45px;
     margin: 0;
@@ -18,7 +18,7 @@ h1 {
     
 h2 {
     font-family: 'Righteous', cursive;
-    color: #f15b31;
+    color:  rgb(199, 43, 192);
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 18px;
@@ -34,13 +34,13 @@ h3 {
 }
 
 header {
-    background-color: #F15B31;
+    background-color:  rgb(199, 43, 192);
     color: #FFFFFF;
     padding: 30px 20px 30px 20px;
 }
 
 nav{
-    background-color: #00A6B3;
+    background-color: rgb(30, 220, 210);
     color: #ffffff;
     padding: 20px 0 20px 20px;
 }
@@ -57,7 +57,7 @@ main {
 
 #test1 {
     font-family: 'Righteous', cursive;
-    color: #0D2C40;
+    
     margin: 0;
     font-size: 20px;
 }
@@ -80,7 +80,7 @@ body {
 a {
     font-family: 'Righteous', cursive;
     text-decoration: none;
-    color: #f15b31;
+    color:  rgb(199, 43, 192);
     border-bottom: 2px solid transparent;
 }
     
@@ -90,7 +90,7 @@ a:hover {
     
 footer {
     text-transform: uppercase;
-    background-color: #0D2C40;
+    background-color: rgb(30, 220, 210);
     padding: 0 20px 0 20px;
     color: white;
     font-size: 14px;
@@ -109,13 +109,27 @@ footer {
 }
 
 .name {
-    color: #F15B31;
+    color: rgb(199, 43, 192);
     font-weight: 700;
 }
 
 .heart {
-    color: #F15B31;
+    color: rgb(199, 43, 192);
     font-weight: 700;
+}
+
+.resets {
+    font-family: 'Righteous', cursive;
+    background-color: rgb(199, 43, 192);
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 
