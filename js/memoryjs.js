@@ -66,7 +66,7 @@ function flipCard(cardId) {
         } else {
             alert("Epic Fail, try again!");
         }
-    }
+    }``
 }
 
 /* //need to figure out why not working...
